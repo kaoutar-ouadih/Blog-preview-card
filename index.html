@@ -15,14 +15,20 @@
     body{
       background-color:  hsl(47, 88%, 63%);
       font-size: 2.5vh;
+      box-sizing: border-box;
     }
     .card{
-      width: 260px;
+      width: 384px;
       border-radius: 15px;
       background-color: white;
       padding: 15px;
-      margin: 100px auto;
+      margin: 218px auto;
       box-shadow: 5px 5px 0 1px black;
+    }
+    @media(max-width:375px){
+      .card{
+        width: 327px;
+      }
     }
     #firstImg{
       width: 100%;
